@@ -6,4 +6,4 @@ Just set it in your root directory(e.g. /www) and run!
 
 
 ### Note: Some external codes have been used, and their rights are reserved for their respective owners.
-License : It's free, You can use the code in your projects, but please don't remove my name:)
+License : It's free, You can use this code in your projects, but please don't remove my name:)
