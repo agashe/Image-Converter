@@ -1,7 +1,5 @@
 ## Image-Converter
 
-Powerful and small tool to convert images.
-
 Image-Converter is a powerful and small tool to convert images.uses flat PHP(v5.2.3), support 4 types of images(jpg, png, gif and bmp).
 
 Just set it in your root directory(e.g. /www) and run!
