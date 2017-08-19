@@ -1,0 +1,141 @@
+/*-----------------------------[main-style]-----------------------------*/
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-color:#fefefe;
+}
+
+.btn{
+	width:80px;
+	height:45px;
+	background-color:#000;
+	border:3px solid red;
+	border-radius:9px;
+	color:red;
+	font-family:tahoma;
+	font-size:1.2em;
+	padding:5px;
+	cursor:pointer;
+}
+.btn:hover{
+	background-color:red;
+	border:3px solid red;
+	color:#000;
+}
+/*-----------------------------[main-style]-----------------------------*/
+
+/*-----------------------------[header]-----------------------------*/
+#header{
+	min-height:250px;
+	padding-top:80px;
+	width:600px;
+	margin:auto;
+	text-align:center;
+}
+#header ul{
+	width:200px;
+	list-style:none;
+}
+#header li a{
+	display:inline-block;
+	float:left;
+	margin:7px;
+	text-decoration:none;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#000;
+	cursor:pointer;
+}
+#header li a:hover{
+	color:red;
+}
+/*-----------------------------[header]-----------------------------*/
+
+/*-----------------------------[content]-----------------------------*/
+#content{
+	min-height:240px;
+	width:600px;
+	margin:auto;
+	padding-top:9px;
+	text-align:center;
+}
+/*----------------[upload-form]----------------*/
+#upload-form form{
+	min-width:400px;
+	text-align:center;
+}
+#upload-form p{
+	border:3px solid #000;
+}
+#upload-form input[type=text]{
+	width:92.5%;
+	height:30px;
+	padding:5px;
+	border:none;
+	font-size:1.1em;
+}
+#upload-form input[type=file]{
+	display:none;
+}
+#upload-form label{
+	margin-right:5px;
+	font-size:1.1em;
+	cursor:pointer;
+}
+#upload-form label:hover{
+	color:red;
+}
+/*----------------[upload-form]----------------*/
+
+/*----------------[result]----------------*/
+#result{
+	display:none;
+	height:120px;
+	margin-bottom:9px;
+	padding-top:12px;
+	padding-left:12px;
+	text-align:left;
+	border:3px solid #000;
+}
+#result h3{
+	margin-bottom:10px;
+}
+#result a{
+	display:block;
+	position:relative;
+	top:20;
+	width:97%;
+	height:25px;
+	border:2px solid #000;
+	background-color:#000;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	font-size:1.2em;
+}
+#result a:hover{
+	border:2px solid #000;
+	background-color:#fff;
+	color:#000;
+}
+/*----------------[result]----------------*/
+
+/*----------------[about]----------------*/
+#about{
+	display:none;
+	height:120px;
+	margin-bottom:9px;
+	border:3px solid #000;
+}
+/*----------------[about]----------------*/
+
+/*-----------------------------[content]-----------------------------*/
+
+/*-----------------------------[footer]-----------------------------*/
+#footer{
+	height:10px;
+}
+/*-----------------------------[footer]-----------------------------*/

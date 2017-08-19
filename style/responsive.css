@@ -1,0 +1,25 @@
+@media only screen and (max-width: 37.5em) {
+	#header{width:70%;padding-top:40;min-height:190px;}
+	#header img{width:100%;}
+	#content{width:90%;min-height:300px;}
+	#upload-form input[type=text]{width:82.5%;}
+	.btn{
+		width:60px;
+		height:40px;
+	}
+}
+
+@media only screen and (max-width: 26.25em) {
+	#upload-form p{width:87%;}
+	#upload-form input[type=text]{width:82.5%;}
+}
+
+@media only screen and (max-width: 22em) {
+	#header{width:30%;margin-left:10px;}
+	#header img{width:290px;height:150px;}
+	#header ul{margin-left:55%;}
+	#content form{min-width:270px;}
+	#upload-form p{width:98%;}
+	#upload-form input[type=text]{width:82.5%;}
+	#result, #about{height:150px;}
+}
